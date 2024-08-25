@@ -1,4 +1,4 @@
-import { defineConfig } from "@adonisjs/core/app";
+import { defineConfig } from "@adonisjs/core/app"
 
 export default defineConfig({
   /*
@@ -88,4 +88,4 @@ export default defineConfig({
   hooks: {
     onBuildStarting: [() => import("@adonisjs/vite/build_hook")],
   },
-});
+})
